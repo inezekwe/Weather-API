@@ -1,0 +1,51 @@
+﻿Mini Weather App
+
+
+For today’s mini project, we are going to build a weather application. This project will have the following goals of:
+
+
+1. Having you learn how to follow instructions for accessing external apis
+2. Having you learn how to read documentation and incorporate into your code
+
+
+The final product is that a user should be able to enter a zipcode, and from that zipcode, print out the appropriate information on screen. Please follow the steps below:
+
+
+1) Register For the Free Weather API
+
+
+You will be using OpenWeatherMap API to get data on weather. You can register to access the free weather API at https://home.openweathermap.org/users/sign_up . Please start by registering
+
+
+2) Confirm Your Email
+
+
+This step is important. Please confirm your email or your api key will not work.
+
+
+3) API Key
+
+
+After you have confirmed your email, you can use your appid/api key for accessing the service. Please go here to find your API Key: https://home.openweathermap.org/api_keys
+
+
+4) API Documentation
+
+
+The API will give you instructions on how to call the API. Please read through the instructions carefully on how to use their API:
+https://openweathermap.org/current
+
+
+5) Build Your Weather Application
+
+
+From the documentation, it’s time to build your weather application from scratch! Your weather application should have the following:
+1. A simple search box where a user can enter information such as a zipcode
+2. When the user clicks submit, their information should be passed to the weather API per the documentation
+3. When a successful response comes back from the weather API, print the weather information on screen
+4. Record all the users searches and display on screen
+
+
+Bonus
+* Style your application
+* Handle error cases where a user inputs invalid entry

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        <title>Weather API</title>
+
+
+        <script src="weather.js"></script>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <nav class="navbar navbar-light">
+                <h1>Weather API</h1>
+                <input type="search" placeholder="Enter zipcode" id="zipsearch" onsubmit="return findWeather(event);">
+            </nav>
+            
+
+            <div class="row" id="weather"></div>
+
+        </div>
+        
+    </body>
+</html>
